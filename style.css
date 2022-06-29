@@ -1,0 +1,92 @@
+:root {
+    --maincolor: #FEE3EC;
+    --secondcolor: #F9C5D5;
+    --thirdcolor: #F999B7;
+    --fourthcolor: #F2789F;
+    --fifthcolor: #A624DB;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+body {
+    background-color: var(--maincolor);
+    font-family: "Lato", sans-serif;
+}
+
+.introduction {
+    text-align: center;
+    margin: 20px 15px;
+    /* padding: 20px; */
+    /* border-radius: 5px; */
+    /* background-color: var(--secondcolor); */
+}
+
+.introduceyourself {
+    max-width: 800px;
+    margin: auto;
+}
+
+.style {
+    font-style: italic;
+    color: var(--fourthcolor);
+}
+
+.information {
+    margin: 20px auto;
+}
+
+.picture {
+    border-radius: 50%;
+    width: 50%;
+    margin: 20px auto;
+    max-width: 150px;
+}
+
+.alink {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--thirdcolor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    max-width: 800px;
+    margin: auto;
+    transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+}
+
+.alink:hover {
+    transform: scale(1.05);
+}
+
+.alink:not(:first-child) {
+    margin-top: 15px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.linktext {
+    flex-grow: 1;
+    /* padding-right: 30px; */
+}
+
+.newsletter {
+    margin-right: 10px;
+}
+
+.maillink {
+    color: var(--fourthcolor);
+    text-decoration: none;
+}
