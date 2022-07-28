@@ -1,5 +1,5 @@
 
-# A quiz
+# A linktree
 
 A friend who knew that I had recently started web development asked me if it would be possible to make a kind of linktree for her personal business as a coach. 
 
